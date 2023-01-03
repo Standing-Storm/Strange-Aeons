@@ -1,0 +1,52 @@
+[ 
+  {
+    "type": "proficiency_category",
+    "id": "prof_ritual_magic",
+    "name": "Sorcery",
+    "description": "Proficiencies that help with eldritch sorcery."
+  },
+ {
+    "type": "proficiency",
+    "id": "prof_ritual_sorcery",
+    "category": "prof_ritual_magic",
+    "name": { "str": "Ritual Sorcery" },
+    "description": "You know the basics of bending the laws of the universe to your will.",
+    "can_learn": true,
+    "default_time_multiplier": 1,
+    "default_fail_multiplier": 2.5,
+    "time_to_learn": "48 h"
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_ritual_alchemy",
+    "category": "prof_ritual_magic",
+    "name": { "str": "The Art of Alchemy" },
+    "description": "You know how to combine mundane materials to produce mystical ones.",
+    "can_learn": true,
+    "default_time_multiplier": 1,
+    "default_fail_multiplier": 1.8,
+    "time_to_learn": "30 h"
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_ritual_enchantment",
+    "category": "prof_ritual_magic",
+    "name": { "str": "The Art of Enchantment" },
+    "description": "You know how to install ordinary items with anomalous properties.",
+    "can_learn": true,
+    "default_time_multiplier": 1,
+    "default_fail_multiplier": 2,
+    "time_to_learn": "60 h"
+  },
+  {
+    "type": "proficiency",
+    "id": "prof_ritual_summoning",
+    "category": "prof_ritual_magic",
+    "name": { "str": "The Art of Summoning" },
+    "description": "You know how to call out through the nether and force those who appear to obey your commands.",
+    "can_learn": true,
+    "default_time_multiplier": 1,
+    "default_fail_multiplier": 3,
+    "time_to_learn": "72 h"
+  }
+]
