@@ -32,7 +32,7 @@
     "id": "prof_ritual_enchantment",
     "category": "prof_ritual_magic",
     "name": { "str": "The Art of Enchantment" },
-    "description": "You know how to install ordinary items with anomalous properties.",
+    "description": "You know how to instill ordinary items with anomalous properties.",
     "can_learn": true,
     "default_time_multiplier": 1,
     "default_fail_multiplier": 2,
